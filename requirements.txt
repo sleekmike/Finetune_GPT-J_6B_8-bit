@@ -1,0 +1,5 @@
+pip3 install transformers==4.14.1
+pip3 install bitsandbytes-cuda111==0.26.0
+pip3 install datasets==1.16.1
+pip3 install loguru
+
