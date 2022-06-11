@@ -213,18 +213,3 @@ async def generate(message: Message):
 #uvicorn gpt-j-api:app --reload
 #lsof -i :8000
 #kill -9
-
-# steps for pushing to github:
-# 1. git clone
-# 2. cd into the folder
-# 3. git add .
-# 4. git commit -m "message"
-# 5. git push
-# 6. open the github page
-# 7. click on the "Deploy to GitHub Pages" button
-
-# steps pushing to a new github repo:
-# 1. git clone
-# 2. cd into the folder
-# 3. git remote add origin
-# 4. git push origin master
