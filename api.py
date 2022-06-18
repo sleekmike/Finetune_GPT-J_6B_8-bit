@@ -209,7 +209,3 @@ async def generate(message: Message):
     result = {"output" : message.output}
     result = json.dumps(result)
     return result
-
-#uvicorn gpt-j-api:app --reload
-#lsof -i :8000
-#kill -9

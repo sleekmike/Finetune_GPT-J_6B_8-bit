@@ -1,4 +1,8 @@
-pip3 install transformers==4.14.1
-pip3 install bitsandbytes-cuda111==0.26.0
-pip3 install datasets==1.16.1
-pip3 install loguru
+transformers==4.14.1
+bitsandbytes-cuda111==0.26.0
+datasets==1.16.1
+loguru
+fastapi
+uvicorn
+torch
+flask

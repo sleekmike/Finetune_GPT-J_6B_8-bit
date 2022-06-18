@@ -223,8 +223,7 @@ gpt.gradient_checkpointing_enable()
 #dataset = load_dataset("transformersbook/codeparrot-train", streaming=True)
 
 # custom dataset
-dataset = load_dataset('text', data_files={'train': ['All-Hail-Damage-Roof-Articles.txt', 'All-Storm-Damage-Roof-Articles.txt'], 'test': ['hail_damage_roofing__Hail_Damage_Roofing_Help_Is_Easy_To_Find_-643023.txt', 'storm_damage_roofing__Getting_Storm_Damage_Roofing_Assistance-643022.txt']})
-#dataset = load_dataset('text', data_files={'train': ['/home/paperspace/project/training-data/All-Hail-Damage-Roof-Articles.txt', '/home/paperspace/project/training-data/All-Storm-Damage-Roof-Articles.txt'], 'test': ['/home/paperspace/project/training-data/hail_damage_roofing__Hail_Damage_Roofing_Help_Is_Easy_To_Find_-643023.txt', '/home/paperspace/project/training-data/storm_damage_roofing__Getting_Storm_Damage_Roofing_Assistance-643022.txt']})
+dataset = load_dataset('text', data_files={'train': ['article-1.txt', 'article-2.txt'], 'test': ['article-3.txt', 'article-4.txt']})
 
 optimizer = Adam8bit(gpt.parameters(), lr=1e-5)
 
